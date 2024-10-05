@@ -7,14 +7,31 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     background-color: #bb8e71;
-
-
 }
 
 a {
-    display: content;
     text-decoration: none;
+}
 
+#nav_container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 5px;
+    position: fixed;
+    top: 80px; 
+    right: 5px;
+    width: 150px;
+    margin-right: 5px;
+}
+
+.nav_element {
+    background: #ffffff;
+    color:#2c3AD1;
+    border: 1px solid black; 
+    padding: 5px; 
+    margin: 2px;
+    display: block;
 }
 
 .header {
